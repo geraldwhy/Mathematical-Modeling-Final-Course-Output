@@ -13,15 +13,28 @@ connectivity performance.
 
 - `src/` → main analysis code  
 - `data/` → dataset used
-- `figures/` → generated graphs and plots  
+- `figures/` → generated graphs
 - `tables/` → summarized results  
 - `requirements.txt` → dependencies
 
 ##  Setup Instructions
-```bash
-# Install dependencies
-pip install -r requirements.txt
 
-# Run the analysis script
-python src/main.py
+### Option 1: Run using CoCalc (Recommended)
+1. Go to https://cocalc.com  
+2. Create or log in to your account  
+3. Upload the file: `Implementation-Python-Script.ipynb`  
+4. Open the notebook  
+5. Run all cells
+
+Note: This project uses SageMath. CoCalc already provides a built-in SageMath environment.
+
+### Option 2: Run locally 
+```bash
+git clone https://github.com/geraldwhy/Mathematical-Modeling-Final-Course-Output.git
+cd Mathematical-Modeling-Final-Course-Output
+sage -n jupyter
 ```
+
+- Open `Implementation-Python-Script.ipynb`
+- Run all cells
+
