@@ -17,24 +17,21 @@ connectivity performance.
 - `tables/` → summarized results  
 - `requirements.txt` → dependencies
 
-##  Setup Instructions
+## How to Run
 
-### Option 1: Run using CoCalc (Recommended)
-1. Go to https://cocalc.com  
-2. Create or log in to your account  
-3. Upload the file: `Implementation-Python-Script.ipynb`  
-4. Open the notebook  
-5. Run all cells
-
-Note: This project uses SageMath. CoCalc already provides a built-in SageMath environment.
-
-### Option 2: Run locally 
+### 1. Install Dependencies
 ```bash
-git clone https://github.com/geraldwhy/Mathematical-Modeling-Final-Course-Output.git
-cd Mathematical-Modeling-Final-Course-Output
-sage -n jupyter
+python -m pip install -r requirements.txt
 ```
 
+### 2. Open Notebook
+```bash
+jupyter notebook Implementation-Python-Script.ipynb
+```
+
+### 3. Run All Cells
+```bash
+Open the notebook and click Kernel → Restart & Run All
 - Open `Implementation-Python-Script.ipynb`
 - Run all cells
-
+```
