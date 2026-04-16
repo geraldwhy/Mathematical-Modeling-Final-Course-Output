@@ -7,7 +7,7 @@ infrastructure in Federizo Hall to accommodate the total student
 population. By representing the system as a flow network, the
 Max-Flow Min-Cut theorem is applied to determine the maximum
 data throughput and to identify structural limitations affecting
-connectivity performance.
+connectivity performance. 
 
 ##  Repository Structure
 
